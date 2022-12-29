@@ -1,7 +1,7 @@
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-const randomQuestions = [
+const randomQuestions = ["",
        "a secret you kept from your parents 👀",
         "ain't no way",
         "any pets?",
@@ -200,7 +200,7 @@ for (var i = 0; i < randomQuestions.length; i++){
             }
         })
   console.log(randomQuestions[i])
-       if (i+1%10==0){
+       if (i%10==0){
         await sleep(15000);
 };}}
 spam();
