@@ -224,6 +224,6 @@ for (var i = 1; i < randomQuestions.length; i++){
     console.log("pausing for 25 secs")
     await sleep(55000);}
     ;}
-console.log("Done!")
+console.log("Done!, scripted by arxhr007")
 }
 spam();
