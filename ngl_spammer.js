@@ -221,7 +221,7 @@ for (var i = 1; i < randomQuestions.length; i++){
         await sleep(10000);
 }
   if (i%25==0){
-    console.log("pausing for 25 secs")
+    console.log("pausing for 55 secs")
     await sleep(55000);}
     ;}
 console.log("Done!, scripted by arxhr007")
