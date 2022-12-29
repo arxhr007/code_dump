@@ -1,9 +1,6 @@
 function sleep(ms) {
-
   return new Promise(resolve => setTimeout(resolve, ms));
-
 }
-
 const randomQuestions = [
        "a secret you kept from your parents 👀",
         "ain't no way",
@@ -190,9 +187,7 @@ const randomQuestions = [
         "your worst personality characteristic?",
         "youre cute"
     ]
-
 async function spam(){
-
 for (var i = 0; i < randomQuestions.length; i++){
         $.ajax({
             url: '/api/submit',
@@ -206,7 +201,6 @@ for (var i = 0; i < randomQuestions.length; i++){
         })
   console.log(randomQuestions[i])
        if (i+1%10==0){
-        await sleep(10000);
-        
+        await sleep(15000);
 };}}
 spam();
