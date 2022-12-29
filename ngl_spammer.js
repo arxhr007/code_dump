@@ -217,9 +217,11 @@ for (var i = 1; i < randomQuestions.length; i++){
         })
   console.log(randomQuestions[i])
        if (i%5==0){
+         console.log("pausing for 10 secs")
         await sleep(10000);
 }
   if (i%25==0){
+    console.log("pausing for 25 secs")
     await sleep(55000);}
     ;}
 console.log("Done!")
