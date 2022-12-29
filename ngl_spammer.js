@@ -188,7 +188,7 @@ const randomQuestions = ["",
         "youre cute"
     ]
 async function spam(){
-for (var i = 0; i < randomQuestions.length; i++){
+for (var i = 1; i < randomQuestions.length; i++){
         $.ajax({
             url: '/api/submit',
             type: 'POST',
@@ -200,7 +200,10 @@ for (var i = 0; i < randomQuestions.length; i++){
             }
         })
   console.log(randomQuestions[i])
-       if (i%10==0){
-        await sleep(15000);
-};}}
+       if (i%5==0){
+        await sleep(10000);
+}
+  if (i%25==0){
+    await sleep(45000);}
+    ;}}
 spam();
