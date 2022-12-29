@@ -220,6 +220,6 @@ for (var i = 1; i < randomQuestions.length; i++){
         await sleep(10000);
 }
   if (i%25==0){
-    await sleep(45000);}
+    await sleep(55000);}
     ;}}
 spam();
