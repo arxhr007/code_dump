@@ -1,0 +1,72 @@
+body{
+    background: #f0f2f5;
+    margin:0
+}
+.name{
+    width: 40%;
+    height: 200px;
+    margin-top: 10%;
+    padding-left: 11%;
+    margin-bottom :0;
+    float: left;
+}
+font{
+    margin-left :34px;
+
+}
+.login{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    width: 30%;
+    height: 346px;
+    background: white;
+    float: left;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+input {
+
+    width: 87%;
+    height: 50px;
+    margin-top:4%;
+    margin-left :4%;
+    margin-right: 4%;
+
+}
+.log{
+    width: 92%;
+    height: 50px;
+    margin-top:4%;
+    margin-left :4%;
+    margin-right: 4%;
+    background:#1877f2;
+    border-radius: 6px;
+    font-size: 20px;
+    color:white;
+    border-color: #34b1eb;
+}
+.link{
+    width: 92%;
+    height: 0px;
+    margin-top:4%;
+    margin-left :4%;
+    margin-right: 4%;
+}
+.new{
+    background: #42b72a;
+    color: white;
+    width: 49%;
+    height: 49px;
+    margin-top: 4%;
+    margin-left: 28%;
+    margin-right: 4%;
+    border-radius: 6px;
+    font-size: 17px;
+}
+.biss{
+    width: 133%;
+    height: 0px;
+    margin-top:4%;
+    margin-left :4%;
+    margin-right: 4%;
+}
