@@ -1,0 +1,7 @@
+how to use:
+open terminal
+type"
+apt install git 
+git clone https://github.com/BLINKING-IDIOT/figlet
+cd figlet
+python3 figlet.py
