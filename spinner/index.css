@@ -1,0 +1,15 @@
+#spin {
+    margin-left: 125px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: blue;
+    border: 0ch;
+  }
+#base{
+    margin:300px;
+    background-color: red;
+    width: 350px;
+    height: 100px;
+    border-radius: 100px;
+}
