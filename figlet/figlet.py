@@ -82,58 +82,5 @@ te=input("Enter the word to figlet: ")
 te=te.lower()
 for j1 in range(7):
  for i1 in range(len(te)):  
-  if te[i1]=='a':
-   print(a[j1]+" ",end="")
-  if te[i1]=='b':
-   print(b[j1]+" ",end="")
-  if te[i1]=='c':
-   print(c[j1]+" ",end="")
-  if te[i1]=='d':
-   print(d[j1]+" ",end="")
-  if te[i1]=='e':
-   print(e[j1]+" ",end="")
-  if te[i1]=='f':
-   print(f[j1]+" ",end="")
-  if te[i1]=='g':
-   print(g[j1]+" ",end="")
-  if te[i1]=="h":
-   print(h[j1]+" ",end="")
-  if te[i1]=='i':
-   print(i[j1]+" ",end="")
-  if te[i1]=='j':
-   print(j[j1]+" ",end="")
-  if te[i1]=='k':
-   print(k[j1]+" ",end="")
-  if te[i1]=='l':
-   print(l[j1]+" ",end="")
-  if te[i1]=='m':
-   print(m[j1]+" ",end="")
-  if te[i1]=='n':
-   print(n[j1]+" ",end="")
-  if te[i1]=='o':
-   print(o[j1]+" ",end="")
-  if te[i1]=='p':
-   print(p[j1]+" ",end="")
-  if te[i1]=='q':
-   print(q[j1]+" ",end="")
-  if te[i1]=='r':
-   print(r[j1]+" ",end="")
-  if te[i1]=='s':
-   print(s[j1]+" ",end="")
-  if te[i1]=='t':
-   print(t[j1]+" ",end="")
-  if te[i1]=='u':
-   print(u[j1]+" ",end="")
-  if te[i1]=='v':
-   print(v[j1]+" ",end="")
-  if te[i1]=='w':
-   print(w[j1]+" ",end="")
-  if te[i1]=='x':
-   print(x[j1]+" ",end="")
-  if te[i1]=='y':
-   print(y[j1]+" ",end="")
-  if te[i1]=='z':
-   print(z[j1]+" ",end="")
+   print(eval(te[i1])[j1]+" ",end="")
  print()
-   
- 
