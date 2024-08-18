@@ -82,5 +82,8 @@ te=input("Enter the word to figlet: ")
 te=te.lower()
 for j1 in range(7):
  for i1 in range(len(te)):  
-   print(eval(te[i1])[j1]+" ",end="")
+   try:
+    print(eval(te[i1])[j1]+" ",end="")
+   except:
+    print(sp[j1],end="")
  print()
